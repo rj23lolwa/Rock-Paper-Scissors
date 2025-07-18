@@ -55,8 +55,10 @@ function playGame() {
         }
 
         else {
-            console.log("Computer Wins!");
-            alert("Computer Wins!");
+            let finalComputerChoice = computerChoice.at(0).toUpperCase() + computerChoice.slice(1);
+            let finalHumanChoice = humanChoice.at(0).toUpperCase() + humanChoice.slice(1);
+            console.log(`${finalComputerChoice} beats ${finalHumanChoice}! Computer Wins!`);
+            alert(`${finalComputerChoice} beats ${finalHumanChoice}! Computer Wins!`);
             computerScore++;
 
         }
