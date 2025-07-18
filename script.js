@@ -17,7 +17,7 @@ function getComputerChoice() {
 //console.log(getComputerChoice());
 
 function getHumanChoice() {
-    return prompt("Enter your choice:");
+    return prompt("Enter your choice: Rock or Paper or Scissors");
 }
 
 //console.log(getHumanChoice());
@@ -64,26 +64,27 @@ function playGame() {
 
 
     for (let i = 0; i < 5; i++) {
+        
 
         const humanSelection = getHumanChoice();
         const computerSelection = getComputerChoice();
-
+        console.log(`Round ${i+1}`);
         playRound(humanSelection, computerSelection);
-
+        console.log(`Score You: ${humanScore}, Computer: ${computerScore}`);
     }
 
     if (humanScore > computerScore) {
-        console.log("Wohoo! You Won!");
-        alert(`Wohoo! You Won! the final score is You : ${humanScore}, Computer :${computerScore}`);
+        console.log(`Wohoo! You Won! 🥳 The final score is You : ${humanScore}, Computer :${computerScore}`);
+        alert(`Wohoo! You Won! 🥳 The final score is You : ${humanScore}, Computer :${computerScore}`);
 
     }
     else if (humanScore === computerScore) {
-        console.log("It's a Tie!");
-        alert(`It's a Tie! the final score is You : ${humanScore}, Computer :${computerScore} Refresh to play again!`);
+        console.log(`It's a Tie! 😬 The final score is You : ${humanScore}, Computer :${computerScore} Refresh to play again!`);
+        alert(`It's a Tie! 😬 The final score is You : ${humanScore}, Computer :${computerScore} Refresh to play again!`);
     }
     else {
-        console.log("Oops! You Lost!");
-        alert(`Oops! You Lost! the final score is You : ${humanScore}, Computer :${computerScore}`);
+        console.log(`Oops! You Lost! 🫤 The final score is You : ${humanScore}, Computer :${computerScore}`);
+        alert(`Oops! You Lost! 🫤 The final score is You : ${humanScore}, Computer :${computerScore}`);
     }
 
 
