@@ -7,7 +7,7 @@ The game lets the user play against the computer for **5 rounds**, and declares 
 
 ## 🔗 Live Preview
 
-[Click here to play the game](https://your-username.github.io/rock-paper-scissors)
+[Click here to play the game](https://rj23lolwa.github.io/Rock-Paper-Scissors/)
 
 ## Features
 
