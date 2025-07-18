@@ -38,7 +38,7 @@ The game lets the user play against the computer for **5 rounds**, and declares 
 
 ## Example Output
 
-```text
+<pre>```text
 Round 1: Rock crushes Scissors! You Win!
 Round 2: It's a Tie!
 Round 3: Computer Wins!
@@ -46,5 +46,6 @@ Round 4: Scissors cut Paper! You Win!
 Round 5: It's a Tie!
 
 Final Score → You: 2, Computer: 1  
-Wohoo! You Won!```
+Wohoo! You Won!
+```</pre>
 
